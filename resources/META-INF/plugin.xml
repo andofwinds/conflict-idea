@@ -18,8 +18,8 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Dark-blue theme inspired by Arcaea. Originally designed to fit in my system configuration.</br>
-    TODO:</br>
+    Dark-blue theme inspired by Arcaea. Originally designed to fit in my system configuration.<br>
+    TODO:<br>
     <ul>
         <li>Better colors for Git / File tree.</li>
     </ul>
