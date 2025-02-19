@@ -1,0 +1,63 @@
+{
+  "name": "Conflict",
+  "author": "andofwinds",
+  "dark": true,
+  "editorScheme": "/editor.xml",
+  "colors": {
+    "bg": "#2F3661",
+    "bg-dim": "#242a52",
+    "border": "#222444",
+    "white": "#E2E2EC",
+    "accent": "#DAB4C8",
+    "accent-dim": "#9C8AB4",
+    "text": "#BFC8D7"
+  },
+  "ui": {
+    "*": {
+      "background": "bg",
+      "foreground": "text",
+      "borderColor": "border",
+      "inactiveBackground": "bg-dim",
+      "disabledBackground": "bg-dim",
+      "selectionBackgroundInactive": "bg",
+      "selectionInactiveBackground": "bg-dim"
+    },
+
+    "ActionButton": {
+      "hoverBackground": "bg-dim",
+      "pressedBackground": "bg-dim",
+      "hoverBorderColor": "bg",
+      "pressedBorderColor": "border"
+    },
+
+    "CompletionPopup": {
+      "selectionBackground": "bg-dim",
+      "matchForeground": "accent-dim",
+      "foreground": "text"
+    },
+
+    "Button": {
+      "foreground": "text",
+      "startBackground": "bg-dim",
+      "endBackground": "bg-dim",
+      "startBorderColor": "bg",
+      "endBorderColor": "bg",
+      "shadowColor": "bg",
+      "focusedBorderColor": "border",
+      "default": {
+        "foreground": "text",
+        "startBackground": "bg-dim",
+        "endBackground": "bg-dim",
+        "startBorderColor": "accent-dim",
+        "endBorderColor": "accent-dim",
+        "shadowColor": "bg",
+        "focusedBorderColor": "border"
+      }
+    },
+
+    "EditorTabs": {
+      "underlinedTabBackground": "bg-dim",
+      "underlinedTabForeground": "text"
+    }
+  }
+}
