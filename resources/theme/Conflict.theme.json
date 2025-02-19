@@ -4,13 +4,16 @@
   "dark": true,
   "editorScheme": "/editor.xml",
   "colors": {
-    "bg": "#2F3661",
-    "bg-dim": "#242a52",
+    "bg": "#24294b",
+    "bg-light": "#353d70",
+    "bg-dim": "#1b1e36",
     "border": "#222444",
     "white": "#E2E2EC",
     "accent": "#DAB4C8",
     "accent-dim": "#9C8AB4",
-    "text": "#BFC8D7"
+    "text": "#BFC8D7",
+    "text-dim": "#7e859b",
+    "debug": "#FF00FF"
   },
   "ui": {
     "*": {
@@ -20,44 +23,47 @@
       "inactiveBackground": "bg-dim",
       "disabledBackground": "bg-dim",
       "selectionBackgroundInactive": "bg",
-      "selectionInactiveBackground": "bg-dim"
+      "selectionInactiveBackground": "bg-light"
     },
-
     "ActionButton": {
-      "hoverBackground": "bg-dim",
-      "pressedBackground": "bg-dim",
+      "hoverBackground": "bg-light",
+      "pressedBackground": "bg-light",
       "hoverBorderColor": "bg",
       "pressedBorderColor": "border"
     },
-
     "CompletionPopup": {
-      "selectionBackground": "bg-dim",
+      "selectionBackground": "bg-light",
       "matchForeground": "accent-dim",
       "foreground": "text"
     },
-
     "Button": {
       "foreground": "text",
-      "startBackground": "bg-dim",
-      "endBackground": "bg-dim",
+      "startBackground": "bg-light",
+      "endBackground": "bg-light",
       "startBorderColor": "bg",
       "endBorderColor": "bg",
       "shadowColor": "bg",
       "focusedBorderColor": "border",
       "default": {
         "foreground": "text",
-        "startBackground": "bg-dim",
-        "endBackground": "bg-dim",
+        "startBackground": "bg-light",
+        "endBackground": "bg-light",
         "startBorderColor": "accent-dim",
         "endBorderColor": "accent-dim",
         "shadowColor": "bg",
         "focusedBorderColor": "border"
       }
     },
-
     "EditorTabs": {
-      "underlinedTabBackground": "bg-dim",
+      "underlinedTabBackground": "bg-light",
+      "hoverBackground": "bg-dim",
       "underlinedTabForeground": "text"
+    },
+    "Plugins": {
+      "background": "bg",
+      "disabledForeground": "text-dim",
+      "hoverBackground": "bg-dim",
+      "lightSelectionBackground": "bg-light"
     }
   }
 }
