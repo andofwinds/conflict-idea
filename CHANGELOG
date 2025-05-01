@@ -1,0 +1,7 @@
+v1.0.2:
+- Update to build `252.*`.
+- Add borders for everything just like Zed.
+- Editor tab colors rework.
+- Add selection colors with new color `excluded`.
+- Add excluded files support with new color `excluded`.
+- Add initial VCS panel support.

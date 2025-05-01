@@ -10,20 +10,24 @@
     "border": "#222444",
     "white": "#E2E2EC",
     "accent": "#DAB4C8",
+    "accent2": "#6f82ab",
     "accent-dim": "#9C8AB4",
     "text": "#BFC8D7",
     "text-dim": "#7e859b",
+    "selection": "#2f3661",
+    "excluded": "#d56b2022",
     "debug": "#FF00FF"
   },
   "ui": {
     "*": {
       "background": "bg",
       "foreground": "text",
-      "borderColor": "border",
+      "borderColor": "accent2",
       "inactiveBackground": "bg-dim",
       "disabledBackground": "bg-dim",
       "selectionBackgroundInactive": "bg",
-      "selectionInactiveBackground": "bg-light"
+      "selectionInactiveBackground": "bg-light",
+      "selectionBackground": "selection"
     },
     "ActionButton": {
       "hoverBackground": "bg-light",
@@ -55,8 +59,9 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "bg-light",
-      "hoverBackground": "bg-dim",
+      "underlinedTabBackground": "bg-dim",
+      "underlineHeight": "0",
+      "hoverBackground": "bg-light",
       "underlinedTabForeground": "text"
     },
     "Plugins": {
@@ -64,6 +69,23 @@
       "disabledForeground": "text-dim",
       "hoverBackground": "bg-dim",
       "lightSelectionBackground": "bg-light"
-    }
+    },
+    "Notification": {
+      "background": "bg-dim",
+      "errorBackground": "accent",
+      "errorForeground": "text",
+      "MoreButton": {
+        "background": "bg-light",
+        "innerBorderColor": "accent-dim"
+      }
+    },
+    "VersionControl": {
+      "RefLabel.backgroundBase": "bg",
+      "Log.Commit.selectionInactiveBackground": "bg-light",
+      "Log.Commit.selectionBackground": "bg-light",
+      "Log.Commit.currentBranchBackground": "bg",
+      "Log.Commit.hoveredBackground": "bg-light"
+    },
+    "FileColor.Yellow": "#11152a"
   }
 }
